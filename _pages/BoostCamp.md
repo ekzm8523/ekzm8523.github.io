@@ -7,5 +7,3 @@ taxonomy: "BoostCamp"
 tags: [BoostCamp]
 ---
 
-## Journal
-쓸내용들
