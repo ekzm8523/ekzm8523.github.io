@@ -1,12 +1,11 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "Category"
-    url: "/categories/"
-  - title: "Archive"
-    url: /year-archive/
-  - title: "About"
-    url: "/about/"
-  - title: "Publications"
-    url: "/publications/"
+  - title: "BoostCamp"
+    url: /categories/BoostCamp/
+  - title: "Backend"
+    url: /categories/Backend/
+  - title: "Programmers"
+    url: /categories/Programmers/
+  - title: "BaekJoon"
+    url: /categories/BaekJoon/
+  
