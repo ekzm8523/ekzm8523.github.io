@@ -1,3 +1,10 @@
+---
+title: "[BoostCamp] Day27_특강"
+excerpt: ""
+categories: [BoostCamp]
+tags: ""
+---
+
 # Day-27 특강 - 김상훈, 이준엽
 
 ## 김상훈-캐글 그랜드마스터의 경진대회 노하우 대방출
