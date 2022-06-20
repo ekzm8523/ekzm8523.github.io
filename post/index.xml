@@ -1,15 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Pure theme for Hugo</title>
+    <title>Posts on 너구리의 낙서장</title>
     <link>https://ekzm8523.github.io/post/</link>
-    <description>Recent content in Posts on Pure theme for Hugo</description>
+    <description>Recent content in Posts on 너구리의 낙서장</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>CC BY 4.0 CN</copyright>
-    <lastBuildDate>Sat, 18 Jun 2022 12:48:13 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jun 2022 10:09:13 +0900</lastBuildDate>
     
         <atom:link href="https://ekzm8523.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>✔2022-06-20 [월요일] Today what I do</title>
+      <link>https://ekzm8523.github.io/post/twid/2022-06-20/</link>
+      <pubDate>Mon, 20 Jun 2022 10:09:13 +0900</pubDate>
+      
+      <guid>https://ekzm8523.github.io/post/twid/2022-06-20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BST and Hash table</title>
+      <link>https://ekzm8523.github.io/post/cs/bst_and_hash/</link>
+      <pubDate>Sun, 19 Jun 2022 12:33:13 +0900</pubDate>
+      
+      <guid>https://ekzm8523.github.io/post/cs/bst_and_hash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>✔2022-06-19 [일요일] Today what I do</title>
+      <link>https://ekzm8523.github.io/post/twid/2022-06-19/</link>
+      <pubDate>Sun, 19 Jun 2022 10:14:13 +0900</pubDate>
+      
+      <guid>https://ekzm8523.github.io/post/twid/2022-06-19/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>✔2022-06-18 Today what I do</title>

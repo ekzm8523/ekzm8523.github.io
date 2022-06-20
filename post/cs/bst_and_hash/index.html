@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <title>
-        너구리의 낙서장</title>
+        BST and Hash table - 너구리의 낙서장
+      </title>
         <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport"
@@ -19,24 +20,28 @@
     <meta http-equiv="window-target" content="_top" />
     
     
-    
+    <meta name="description" content="" />
     <meta name="generator" content="Hugo 0.101.0 with theme pure" />
-    <title>너구리의 낙서장</title>
+    <title>BST and Hash table - 너구리의 낙서장</title>
     
-    <link rel="alternate" type="application/rss+xml" href="https://ekzm8523.github.io/index.xml" title="너구리의 낙서장" />
     
     <link rel="stylesheet" href="https://ekzm8523.github.io/css/style.min.e64d754037c0ee0ec4e20ab1d6f07740ace61729bc03850559b8caa21ae4a597.css">
     
     <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
-    <meta property="og:title" content="너구리의 낙서장" />
+    <meta property="og:title" content="BST and Hash table" />
 <meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://ekzm8523.github.io/" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ekzm8523.github.io/post/cs/bst_and_hash/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-06-19T12:33:13+09:00" />
+<meta property="article:modified_time" content="2022-06-19T12:33:13+09:00" />
 
-<meta itemprop="name" content="너구리의 낙서장">
-<meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="너구리의 낙서장"/>
+<meta itemprop="name" content="BST and Hash table">
+<meta itemprop="description" content=""><meta itemprop="datePublished" content="2022-06-19T12:33:13+09:00" />
+<meta itemprop="dateModified" content="2022-06-19T12:33:13+09:00" />
+<meta itemprop="wordCount" content="883">
+<meta itemprop="keywords" content="CS," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="BST and Hash table"/>
 <meta name="twitter:description" content=""/>
 
     <!--[if lte IE 9]>
@@ -238,56 +243,20 @@
 
     
     
+<aside class="sidebar sidebar-toc collapse" id="collapseToc" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <h4 class="toc-title">Catalogue</h4>
+    <nav id="toc" class="js-toc toc">
 
-<main class="main" role="main">
-  
-  <div class="content article-list">
+    </nav>
+  </div>
+</aside>
+<main class="main" role="main"><div class="content">
+  <article id="-" class="article article-type-" itemscope
+    itemtype="http://schema.org/BlogPosting">
     
-    
-    
-    <article
-      class="article article-type-page"
-      itemscope
-      itemtype="http://schema.org/BlogPosting"
-    >
-      <div class="article-header">
-        <h1 itemprop="name">
-  <a
-    class="article-date"
-    href="/post/twid/2022-06-20/"
-    >✔2022-06-20 [월요일] Today what I do</a
-  >
-</h1>
-
-      </div>
-      <p class="article-meta">
-<span class="article-date">
-  <i class="icon icon-calendar-check"></i>&nbsp;
-<a href="https://ekzm8523.github.io/post/twid/2022-06-20/" class="">
-  <time datetime="2022-06-20 10:09:13 &#43;0900 KST" itemprop="datePublished">2022-06-20</time>
-</a>
-</span>
-<span class="article-category">
-  <i class="icon icon-folder"></i>&nbsp;
-  <a class="article-category-link" href="/categories/twid/"> TWID </a>
-</span>  
-  <span class="article-tag">
-    <i class="icon icon-tags"></i>&nbsp;
-    <a class="article-tag-link" href="/tags/twid/"> TWID </a>
-  </span>
-
-        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/post/twid/2022-06-20/#comments" class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 57 words</span>
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 1 minutes </span>
-      </p>
-    </article>
-    <article
-      class="article article-type-page"
-      itemscope
-      itemtype="http://schema.org/BlogPosting"
-    >
-      <div class="article-header">
-        <h1 itemprop="name">
+    <div class="article-header">
+      <h1 itemprop="name">
   <a
     class="article-title"
     href="/post/cs/bst_and_hash/"
@@ -295,11 +264,11 @@
   >
 </h1>
 
-      </div>
-      <p class="article-meta">
+      <div class="article-meta">
+        
 <span class="article-date">
   <i class="icon icon-calendar-check"></i>&nbsp;
-<a href="https://ekzm8523.github.io/post/cs/bst_and_hash/" class="">
+<a href="https://ekzm8523.github.io/post/cs/bst_and_hash/" class="article-date">
   <time datetime="2022-06-19 12:33:13 &#43;0900 KST" itemprop="datePublished">2022-06-19</time>
 </a>
 </span>
@@ -312,129 +281,101 @@
     <a class="article-tag-link" href="/tags/cs/"> CS </a>
   </span>
 
-        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/post/cs/bst_and_hash/#comments" class="article-comment-link">Comments</a></span>
+        <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/post/cs/bst_and_hash/#comments"
+            class="article-comment-link">Comments</a></span>
 		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 883 words</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 2 minutes </span>
-      </p>
-    </article>
-    <article
-      class="article article-type-page"
-      itemscope
-      itemtype="http://schema.org/BlogPosting"
-    >
-      <div class="article-header">
-        <h1 itemprop="name">
-  <a
-    class="article-title"
-    href="/post/twid/2022-06-19/"
-    >✔2022-06-19 [일요일] Today what I do</a
-  >
-</h1>
-
       </div>
-      <p class="article-meta">
-<span class="article-date">
-  <i class="icon icon-calendar-check"></i>&nbsp;
-<a href="https://ekzm8523.github.io/post/twid/2022-06-19/" class="">
-  <time datetime="2022-06-19 10:14:13 &#43;0900 KST" itemprop="datePublished">2022-06-19</time>
-</a>
-</span>
-<span class="article-category">
-  <i class="icon icon-folder"></i>&nbsp;
-  <a class="article-category-link" href="/categories/twid/"> TWID </a>
-</span>  
-  <span class="article-tag">
-    <i class="icon icon-tags"></i>&nbsp;
-    <a class="article-tag-link" href="/tags/twid/"> TWID </a>
-  </span>
-
-        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/post/twid/2022-06-19/#comments" class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 38 words</span>
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 1 minutes </span>
-      </p>
-    </article>
-    <article
-      class="article article-type-page"
-      itemscope
-      itemtype="http://schema.org/BlogPosting"
-    >
-      <div class="article-header">
-        <h1 itemprop="name">
-  <a
-    class="article-title"
-    href="/post/twid/2022-06-18/"
-    >✔2022-06-18 Today what I do</a
-  >
-</h1>
-
-      </div>
-      <p class="article-meta">
-<span class="article-date">
-  <i class="icon icon-calendar-check"></i>&nbsp;
-<a href="https://ekzm8523.github.io/post/twid/2022-06-18/" class="">
-  <time datetime="2022-06-18 12:48:13 &#43;0900 KST" itemprop="datePublished">2022-06-18</time>
-</a>
-</span>
-<span class="article-category">
-  <i class="icon icon-folder"></i>&nbsp;
-  <a class="article-category-link" href="/categories/twid/"> TWID </a>
-</span>  
-  <span class="article-tag">
-    <i class="icon icon-tags"></i>&nbsp;
-    <a class="article-tag-link" href="/tags/twid/"> TWID </a>
-  </span>
-
-        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/post/twid/2022-06-18/#comments" class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 83 words</span>
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 1 minutes </span>
-      </p>
-    </article>
-    <article
-      class="article article-type-page"
-      itemscope
-      itemtype="http://schema.org/BlogPosting"
-    >
-      <div class="article-header">
-        <h1 itemprop="name">
-  <a
-    class="article-title"
-    href="/post/test/"
-    >Blog를 Github Page로 옮긴 이유</a
-  >
-</h1>
-
-      </div>
-      <p class="article-meta">
-<span class="article-date">
-  <i class="icon icon-calendar-check"></i>&nbsp;
-<a href="https://ekzm8523.github.io/post/test/" class="">
-  <time datetime="2022-06-18 12:48:13 &#43;0900 KST" itemprop="datePublished">2022-06-18</time>
-</a>
-</span>
-<span class="article-category">
-  <i class="icon icon-folder"></i>&nbsp;
-  <a class="article-category-link" href="/categories/%EC%9E%A1%EB%8B%B4/"> 잡담 </a>
-</span>  
-  <span class="article-tag">
-    <i class="icon icon-tags"></i>&nbsp;
-    <a class="article-tag-link" href="/tags/%EC%9E%A1%EB%8B%B4/"> 잡담 </a>
-  </span>
-
-        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/post/test/#comments" class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 275 words</span>
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 1 minutes </span>
-      </p>
-    </article></div>
-  
-<nav class="bar bar-footer clearfix" data-stick-bottom>
-  <div class="bar-inner">
-    <ul class="pager pull-left">
-    </ul>
-    <div class="total-article bar-right">
-      Page:1/1
     </div>
+    <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
+      <h2 id="bst는-어떤-자료구조인가요">BST는 어떤 자료구조인가요?</h2>
+<p>BST란 Binary Search Tree의 약자로 이진트리이기 때문에 당연히 child 노드는 최대 두개까지 가질 수 있습니다.
+왼쪽 자식은 자신보다 작아야하고 오른쪽 자신은 자신보다 커야하는 규칙이 있습니다.
+이렇게 구성했을때 search 시간복잡도는 O(log n)을 갖습니다.
+하지만 최악의 경우 한쪽으로만 치우친 트리가 구성되어 worst case는 O(n)의 시간복잡도를 갖습니다.
+이의 해결방안으로는 Red black Tree가 있습니다.</p>
+<h2 id="hash-table은-어떤-자료구조-인가요">Hash table은 어떤 자료구조 인가요?</h2>
+<p>파이썬에서 맨날 사용하는 dict 형태가 hash table이라고 볼 수 있습니다.
+Hash table은 내부적으로 작동하는 원리까지 들어가면 알아야 할게 참 많은데 일단 key value 형태를 저장하는 자료구조입니다.
+key값을 hash function에 넣어 나오는 index(메모리 주소)에 key, value를 저장합니다. 보통 hash function은 string형태도 index로 변환을 시켜주어야 하기 때문에 encoding방식은 구현에 따라 다르고 int로 변경된 뒤에 mod 연산을 통해 index로 변경해줍니다. (2012 mod 9 -&gt; 5) 하지만 단순히 이런 방법으로는 같은 인덱스가 나올 수 있습니다. 그에 따른 후 처리를 해주어야 합니다.</p>
+<h2 id="hash-table에서-collision이-발생하면-어떻게-되나요-해결-방법엔-뭐가-있나요">Hash table에서 collision이 발생하면 어떻게 되나요? 해결 방법엔 뭐가 있나요?</h2>
+<p>서로 다른 key값을 hash function에 넣어 인덱스를 뽑았을때 같은 인덱스가 나온경우 collision이 발생했다고 합니다.
+해결방안에는 정말 여러가지가 있는데 일단 open addressing 방식은 다른 빈 인덱스를 찾아 나서는 방법입니다.
+다른 빈 인덱스를 찾는 방법으로 한칸씩 이동하는 Linear Probing이 있고 제곱수만큼 이동하는 Quadratic Probing 방법이 있고 마지막으로 Double Hashing 방법이 있습니다.
+Double Hashing방법은 앞서 말한 Linear나 Quadratic 방법은 인덱스가 몰린다는 단점이 존재해서 랜덤하게 인덱스를 탐색하기 위해서 Hash Functioin을 하나 더 태운거라고 볼 수 있습니다.</p>
+<p>두번째로 separete chaining 방식이 있습니다.
+이는 같은 인덱스에 도달하더라도 저장을 Linked list나 Tree구조로 저장하는 방법입니다.
+Linked list형태로 저장한다면 같은 1 인덱스라도 여러 key value들을 저장할 수 있습니다.
+하지만 최악의 경우는 인덱스 1에 계속 저장되어 search worst time이 O(n)까지 걸릴 수 있습니다.</p>
+    </div>
+    <div class="article-footer">
+<blockquote class="mt-2x">
+  <ul class="post-copyright list-unstyled">
+    <li class="post-copyright-link hidden-xs">
+      <strong>Permalink: </strong>
+      <a href="https://ekzm8523.github.io/post/cs/bst_and_hash/" title="BST and Hash table" target="_blank" rel="external">https://ekzm8523.github.io/post/cs/bst_and_hash/</a>
+    </li>
+    <li class="post-copyright-license">
+      <strong>License: </strong>
+        <a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external">CC BY 4.0 CN</a>
+    </li>
+  </ul>
+</blockquote>
+
+<div class="panel panel-default panel-badger">
+  <div class="panel-body">
+    <figure class="media">
+      <div class="media-left">
+        <a href="https://github.com/ekzm8523" target="_blank" class="img-burn thumb-sm visible-lg">
+          <img src="https://ekzm8523.github.io/profile_image.png" class="img-rounded w-full" alt="">
+        </a>
+      </div>
+      <div class="media-body">
+        <h3 class="media-heading"><a href="https://github.com/ekzm8523" target="_blank"><span class="text-dark">너구리의 낙서장</span><small class="ml-1x">Back-End &amp; AI Engineer</small></a></h3>
+        <div>I like AI</div>
+      </div>
+    </figure>
   </div>
+</div>
+
+    </div>
+  </article>
+<section id="comments">
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+    
+</section>
+
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="https://ekzm8523.github.io/post/twid/2022-06-19/" title="✔2022-06-19 [일요일] Today what I do"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
+            </li>
+            <li class="next">
+                <a href="https://ekzm8523.github.io/post/twid/2022-06-20/"
+                    title="✔2022-06-20 [월요일] Today what I do"><span>Newer&nbsp;&nbsp;</span><i
+                        class="icon icon-angle-right" aria-hidden="true"></i></a>
+            </li>
+            
+            <li class="toggle-toc">
+                <a class="toggle-btn collapsed" data-toggle="collapse" href="#collapseToc" aria-expanded="false"
+                    title="Catalogue" role="button">
+                    <span>[&nbsp;</span><span>Catalogue</span>
+                    <i class="text-collapsed icon icon-anchor"></i>
+                    <i class="text-in icon icon-close"></i>
+                    <span>]</span>
+                </a>
+            </li>
+        </ul>
+        <div class="bar-right">
+        </div>
+    </div>
 </nav>
+
 
 </main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
 <ul class="social-links">
@@ -511,6 +452,19 @@
         
         hasInnerContainers: true,
     });
+</script>
+
+<script>
+    var disqus_config = function () {
+        this.page.url = 'https:\/\/ekzm8523.github.io\/post\/cs\/bst_and_hash\/';
+        this.page.identifier = 'jaewon';
+    };
+    (function () {
+        var d = document, s = d.createElement('script');
+        s.src = '//' + 'jaewon' + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
 </script>
 
   </body>
