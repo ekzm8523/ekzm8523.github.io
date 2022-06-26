@@ -39,7 +39,7 @@
 <meta itemprop="name" content="✔2022-06-26 [일요일] Today what I do">
 <meta itemprop="description" content=""><meta itemprop="datePublished" content="2022-06-26T09:09:00+09:00" />
 <meta itemprop="dateModified" content="2022-06-26T09:09:00+09:00" />
-<meta itemprop="wordCount" content="17">
+<meta itemprop="wordCount" content="267">
 <meta itemprop="keywords" content="TWID," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="✔2022-06-26 [일요일] Today what I do"/>
 <meta name="twitter:description" content=""/>
@@ -283,16 +283,22 @@
 
         <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/post/twid/2022-06-26/#comments"
             class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 17 words</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 267 words</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 1 minutes </span>
       </div>
     </div>
     <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
       <ul>
-<li><input disabled="" type="checkbox"> 코테 한 문제</li>
+<li><input checked="" disabled="" type="checkbox"> 코테 한 문제</li>
 <li><input disabled="" type="checkbox"> 데이터 리서치</li>
-<li><input disabled="" type="checkbox"> 저녁 강남 약속</li>
+<li><input checked="" disabled="" type="checkbox"> 저녁 강남 약속</li>
 </ul>
+<p>오늘 코테를 풀면서 메모리 삑이 하루종일 났다. 아무래도 재귀함수를 쓰다보니 stack overflow가 난 것 같았다.
+이유는 재귀함수를 썼기 때문이고, 그로인해 sys.setrecursionlimit 제한을 풀어줬기 때문이였다.
+또한 재귀함수를 dfs 형식이 아닌 bruth force 방식으로 넣어줬기 때문에 스택메모리가 폭발할 수 밖에 없었다.</p>
+<p>파이썬에서는 tail call recursion 기능이 없기 때문에 재귀함수를 쓸 때 스택 오버플로우를 조심해야 한다.</p>
+<p>그리고 sys.setrecursionlimit을 사용해 재귀함수 호출 제한을 풀어주게 된다면 memory leak이 발생할 확률이 커진다.</p>
+<p>다음부턴 스택메모리가 오버되지 않게 조심해서 사용하도록 하자</p>
     </div>
     <div class="article-footer">
 
