@@ -6,17 +6,26 @@
     <description>Recent content in Posts on 너구리의 낙서장</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>CC BY 4.0 CN</copyright>
-    <lastBuildDate>Thu, 14 Jul 2022 08:08:00 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 16 Jul 2022 08:08:00 +0900</lastBuildDate>
     
         <atom:link href="https://ekzm8523.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Blog를 Github Page로 옮긴 이유</title>
+      <link>https://ekzm8523.github.io/post/test/</link>
+      <pubDate>Sat, 18 Jun 2022 12:48:13 +0900</pubDate>
+      
+      <guid>https://ekzm8523.github.io/post/test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title></title>
-      <link>https://ekzm8523.github.io/post/twid/2022-07-15/</link>
+      <link>https://ekzm8523.github.io/post/twid/2022-07-05/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ekzm8523.github.io/post/twid/2022-07-15/</guid>
+      <guid>https://ekzm8523.github.io/post/twid/2022-07-05/</guid>
       <description></description>
     </item>
     
