@@ -6,10 +6,19 @@
     <description>Recent content in TWID on 너구리의 낙서장</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>CC BY 4.0 CN</copyright>
-    <lastBuildDate>Mon, 25 Jul 2022 08:08:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 26 Jul 2022 08:08:00 +0900</lastBuildDate>
     
         <atom:link href="https://ekzm8523.github.io/categories/twid/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>BST and Hash table</title>
+      <link>https://ekzm8523.github.io/post/cs/bst_and_hash/</link>
+      <pubDate>Sun, 19 Jun 2022 12:33:13 +0900</pubDate>
+      
+      <guid>https://ekzm8523.github.io/post/cs/bst_and_hash/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>✔2022-06-19 [일요일] Today what I do</title>
